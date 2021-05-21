@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  max-width: 1440px;
+  max-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: clip;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #19a2ae;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-position: -160% 160%, 240% -85%;
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+}
+
+.card {
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: #969696 0px 7px 29px 0px;
+          box-shadow: #969696 0px 7px 29px 0px;
+}
+
+.card .card-header {
+  height: 30%;
+}
+
+.card .card-header img {
+  height: 100%;
+  width: 100%;
+}
+
+.card .card-body {
+  text-align: center;
+}
+
+.card .card-body img {
+  border-radius: 50%;
+  margin-top: -58px;
+  border: 5px solid white;
+  margin-bottom: 30px;
+}
+
+.card .card-body h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #2d3248;
+}
+
+.card .card-body span {
+  font-weight: 400;
+  margin-left: 10px;
+  color: #6a6f81;
+}
+
+.card .card-body h4 {
+  color: #6a6f81;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.card .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 15px 40px;
+  border-top: 1px solid #969696;
+}
+
+.card .card-text div {
+  padding: 10px;
+}
+
+.card .card-text div h3 {
+  font-weight: 700;
+  color: #2d3248;
+  margin-bottom: 8px;
+}
+
+.card .card-text div p {
+  font-weight: 400;
+  color: #6a6f81;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */
